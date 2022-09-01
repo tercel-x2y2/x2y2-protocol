@@ -30,7 +30,7 @@
       "120000",
       "${WETH.address}"
     ],
-    "upgradedAddress": "",
+    "upgradedAddress": "0xbfBe85B274CeB261C0cAa01CF9C4626D55F6dC9E",
     "deployed": true,
     "upgraded": true,
     "verified": false

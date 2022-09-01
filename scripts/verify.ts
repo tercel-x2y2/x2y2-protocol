@@ -61,15 +61,22 @@ async function verify() {
         if(!addr){
             continue;
         }
+        let constructorArgs = data[ele].constructorArgs;
+        if(isProxy(data[ele])) constructorArgs = [];
         console.log('verify:addr',ele, addr);
         await hre.run("verify:verify", {
             address: addr,
-            constructorArguments: data[ele].constructorArgs,
+            constructorArguments: constructorArgs,
         })
         origdata[ele].verified = true
     }
 
     console.log("============Verify contract Done!============");
+}
+
+function isProxy(item:any) {
+  if(item.hasOwnProperty('proxy') && item.proxy) return true;
+  return false;
 }
 
 async function main() {
