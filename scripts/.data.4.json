@@ -1,0 +1,38 @@
+{
+  "ownerWallet": {
+    "address": "0x2d4e68cAF597d1e980b5e8684164460161f8C29b",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "devWallet": {
+    "address": "0x2d4e68cAF597d1e980b5e8684164460161f8C29b",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "WETH": {
+    "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "X2Y2_r1": {
+    "address": "0x532a0C1f6663A1A38196F1869a92Cf7929a0477C",
+    "proxy": true,
+    "constructorArgs": [
+      "120000",
+      "${WETH.address}"
+    ],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": false
+  }
+}

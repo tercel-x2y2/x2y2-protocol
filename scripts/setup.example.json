@@ -1,0 +1,12 @@
+[
+    {
+        "call": false,
+        "called": false,
+        "functionName": "updateFeeCap",
+        "contractName": "X2Y2_r1",
+        "contractAddr": "",
+        "args": [
+			"0"
+        ]
+    }
+]
