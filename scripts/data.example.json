@@ -31,6 +31,21 @@
 		"deployed": false,
 		"upgraded": false,
 		"verified": false
+	},
+	"ERC721Delegate": {
+		"address": "",
+		"constructorArgs": [],
+		"upgradedAddress": "",
+		"deployed": false,
+		"upgraded": false,
+		"verified": false
+	},
+	"ERC1155Delegate": {
+		"address": "",
+		"constructorArgs": [],
+		"upgradedAddress": "",
+		"deployed": false,
+		"upgraded": false,
+		"verified": false
 	}
-	
 }

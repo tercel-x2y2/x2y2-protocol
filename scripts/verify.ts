@@ -55,7 +55,7 @@ async function verify() {
             continue;
         }
         let addr = data[ele].address
-        if(data[ele].upgraded) {
+        if(data[ele].upgraded && isProxy(data[ele])) {
             addr = data[ele].upgradedAddress
         }
         if(!addr){

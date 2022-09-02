@@ -33,6 +33,22 @@
     "upgradedAddress": "0xbfBe85B274CeB261C0cAa01CF9C4626D55F6dC9E",
     "deployed": true,
     "upgraded": true,
-    "verified": false
+    "verified": true
+  },
+  "ERC721Delegate": {
+    "address": "0x83405188d810b28EECd519e02d543D107F37B528",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "ERC1155Delegate": {
+    "address": "0xA485C6Be3c18BfeE199C4bF4140ae47F8B41A965",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
   }
 }
