@@ -8,5 +8,37 @@
         "args": [
 			"0"
         ]
+    },
+    {
+        "call": true,
+        "called": false,
+        "functionName": "updateDelegates",
+        "contractName": "X2Y2_r1",
+        "contractAddr": "",
+        "args": [
+			["${ERC721Delegate.address}", "${ERC1155Delegate.address}"],[]
+        ]
+    },
+    {
+        "call": true,
+        "called": false,
+        "functionName": "grantRole",
+        "contractName": "ERC721Delegate",
+        "contractAddr": "",
+        "args": [
+			"0x7630198b183b603be5df16e380207195f2a065102b113930ccb600feaf615331",
+            "${X2Y2_r1.address}"
+        ]
+    },
+    {
+        "call": true,
+        "called": false,
+        "functionName": "grantRole",
+        "contractName": "ERC1155Delegate",
+        "contractAddr": "",
+        "args": [
+			"0x7630198b183b603be5df16e380207195f2a065102b113930ccb600feaf615331",
+            "${X2Y2_r1.address}"
+        ]
     }
 ]
