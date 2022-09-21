@@ -1,0 +1,54 @@
+{
+  "ownerWallet": {
+    "address": "0x2d4e68cAF597d1e980b5e8684164460161f8C29b",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "devWallet": {
+    "address": "0x2d4e68cAF597d1e980b5e8684164460161f8C29b",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "WETH": {
+    "address": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
+    "constructorArgs": [],
+    "upgradedAddress": "",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "X2Y2_r1": {
+    "address": "0xbF7301b7704469A469015CE9365adB0C8FBcee5c",
+    "proxy": true,
+    "constructorArgs": [
+      "120000",
+      "${WETH.address}"
+    ],
+    "upgradedAddress": "0x357eB57DBF2110819A9574C86BD3e4bcf34261BC",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "ERC721Delegate": {
+    "address": "0x23e2ae6E662a572700CD3bd49b65A7A00e516d4e",
+    "constructorArgs": [],
+    "upgradedAddress": "0x23e2ae6E662a572700CD3bd49b65A7A00e516d4e",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  },
+  "ERC1155Delegate": {
+    "address": "0x2A2bfE75Bd114E8Bad1c6D89EF9a59176ecB4dE9",
+    "constructorArgs": [],
+    "upgradedAddress": "0x2A2bfE75Bd114E8Bad1c6D89EF9a59176ecB4dE9",
+    "deployed": true,
+    "upgraded": true,
+    "verified": true
+  }
+}

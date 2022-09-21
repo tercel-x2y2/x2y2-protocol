@@ -57,6 +57,10 @@ const config: HardhatUserConfig = {
       url: `https://rinkeby.infura.io/v3/${process.env.INFURA_API_KEY}`,
       accounts: [process.env.DEPLOYER_PK+'']
     },
+    goerli: {
+      url: `https://goerli.infura.io/v3/${process.env.INFURA_API_KEY}`,
+      accounts: [process.env.DEPLOYER_PK+'']
+    },
     bsctestnet: {
       url: `https://data-seed-prebsc-1-s1.binance.org:8545/`,
       accounts: [process.env.DEPLOYER_PK+'']
